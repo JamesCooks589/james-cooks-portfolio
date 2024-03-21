@@ -119,7 +119,7 @@ export default function ContentList({items, contentType, viewMoreText = "Read Mo
             <ul className="grid border-b border-b-slate-100" onMouseLeave={onMouseLeave}>
                 {items.map((item, index) => {
                     return (
-                        <li key={index} className="list-item opacity-0f"
+                        <li key={index} className="list-item opacity-0"
                         onMouseEnter={() => onMouseEnter(index)}
                         ref={(el) => (itemsRef.current[index] = el)}
                         >
